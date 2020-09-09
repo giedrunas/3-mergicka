@@ -2,32 +2,47 @@ body {
     background-color: #f8f8f8;
 }
     header {
-
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc( (100% - 1000px) / 2 );
+        
     }
         header > img{
-
+            display: inline-block;
+            float: left;
         }
         nav{
-
+            display: inline-block;
+            float: right;
+        
         }
             a{
-
+                display: inline-block;
             }
             a:last-of-type {
                 
             }
     main {
-
-    }
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc( (100% - 1000px) / 2 );
+        
+        }
         div{
-
+            display: inline-block;
+            width: 40%;
+            float: left;
+            margin-top: 100px;
+            margin-right: 10%;
         }
             h1{
-
+                display: inline-block;
             }
             p{
-
+                display: inline-block;
             }
         main > img{
-
+            display: inline-block;
+            width: 50%;
+            float: left;
         }
